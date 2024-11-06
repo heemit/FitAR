@@ -1,0 +1,10 @@
+[{
+  "_id": {
+    "$oid": "671b027b92e16445f111357e"
+  },
+  "name": "Heemit Shah",
+  "phone": "9930337350",
+  "email": "heemit.shah@somaiya.edu",
+  "password": "$2a$10$k0vUo21AhmM.0ojiBfSgGuX2Edg.5bychsoHb76NRJ2OJX29OjkRG",
+  "__v": 0
+}]

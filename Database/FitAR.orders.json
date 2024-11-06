@@ -1,0 +1,100 @@
+[{
+  "_id": {
+    "$oid": "671b6671d477bc1bafa4bee5"
+  },
+  "userId": "heemit.shah@somaiya.edu",
+  "products": [
+    {
+      "productId": {
+        "$oid": "671a99546724b3af08dce1ef"
+      },
+      "name": "Treadmills",
+      "price": 26998,
+      "imageUrl": "https://media.sketchfab.com/models/03e4ff99ecc24e5f8ea49d4e8df876e8/thumbnails/204c6e92309a40639f22410f15962054/b926e16aa91c4c00a58fe39b7992fbf6.jpeg",
+      "quantity": 1,
+      "_id": {
+        "$oid": "671b6671d477bc1bafa4bee6"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "671a99546724b3af08dce1f0"
+      },
+      "name": "Stationary Bikes",
+      "price": 10499,
+      "imageUrl": "https://media.sketchfab.com/models/c6c7b485d4a6437999502c1b477617c5/thumbnails/7802a5ea36dc40a4af79ad4b2d6e4a40/cf14c18d051143af98e4abe4b824b5c3.jpeg",
+      "quantity": 1,
+      "_id": {
+        "$oid": "671b6671d477bc1bafa4bee7"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "671a99546724b3af08dce1f1"
+      },
+      "name": "Stair Climbers",
+      "price": 17590,
+      "imageUrl": "https://m.media-amazon.com/images/I/61vFjevMSQL._SX679_.jpg",
+      "quantity": 1,
+      "_id": {
+        "$oid": "671b6671d477bc1bafa4bee8"
+      }
+    }
+  ],
+  "totalAmount": 55087,
+  "status": "Pending",
+  "orderDate": {
+    "$date": "2024-10-25T09:35:45.082Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6720abc0d477bc1bafa4bf3e"
+  },
+  "userId": "heemit.shah@somaiya.edu",
+  "products": [
+    {
+      "productId": {
+        "$oid": "671a99546724b3af08dce1ef"
+      },
+      "name": "Treadmills",
+      "price": 26998,
+      "imageUrl": "https://media.sketchfab.com/models/03e4ff99ecc24e5f8ea49d4e8df876e8/thumbnails/204c6e92309a40639f22410f15962054/b926e16aa91c4c00a58fe39b7992fbf6.jpeg",
+      "quantity": 2,
+      "_id": {
+        "$oid": "6720abc0d477bc1bafa4bf3f"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "671a99546724b3af08dce1f0"
+      },
+      "name": "Stationary Bikes",
+      "price": 10499,
+      "imageUrl": "https://media.sketchfab.com/models/c6c7b485d4a6437999502c1b477617c5/thumbnails/7802a5ea36dc40a4af79ad4b2d6e4a40/cf14c18d051143af98e4abe4b824b5c3.jpeg",
+      "quantity": 2,
+      "_id": {
+        "$oid": "6720abc0d477bc1bafa4bf40"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "671a99546724b3af08dce1f1"
+      },
+      "name": "Stair Climbers",
+      "price": 17590,
+      "imageUrl": "https://m.media-amazon.com/images/I/61vFjevMSQL._SX679_.jpg",
+      "quantity": 2,
+      "_id": {
+        "$oid": "6720abc0d477bc1bafa4bf41"
+      }
+    }
+  ],
+  "totalAmount": 110174,
+  "status": "Pending",
+  "orderDate": {
+    "$date": "2024-10-29T09:32:48.807Z"
+  },
+  "__v": 0
+}]
