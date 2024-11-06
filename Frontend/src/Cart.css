@@ -1,0 +1,64 @@
+.cart-page {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.cart-content {
+    display: flex;
+    align-items: flex-start; /* Align items to the top */
+}
+
+.cart-items-box {
+    flex: 1;
+    background-color: #f9f9f9; /* Same background as order details */
+    padding: 20px;
+    margin-right: 20px;
+    border: 1px solid #ccc; /* Optional: border to match order details */
+}
+
+.cart-title {
+    margin: 0; /* Remove default margin */
+    padding-bottom: 10px; /* Optional: spacing below title */
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.item-details {
+    margin-left: 20px;
+}
+
+.order-details {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 300px;
+    background-color: #f9f9f9;
+}
+
+.order-details h3 {
+    margin-top: 0;
+}
+
+.button {
+    background-color: #a5998d;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.wishlist-button, .remove-button {
+    margin-left: 10px; /* Space between buttons */
+}
+
+.remove-button {
+    background-color: #e74c3c; /* Red color for remove button */
+    color: white;
+}

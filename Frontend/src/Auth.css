@@ -1,0 +1,157 @@
+/* Main Container Styling */
+.auth-container {
+  display: flex;
+  height: 100vh;
+  background-color: #fdfdfb; /* Almond milk */
+}
+
+/* Left Section for Image */
+.auth-image-section {
+  flex: 1;
+  background-color: #dfd5cb; /* Sweet beige */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.auth-image-section img {
+  max-width: 80%;
+  height: auto;
+}
+
+/* Right Section for Login/Register Form */
+.auth-form-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+  background-color: #fdfdfb; /* Almond milk */
+}
+
+/* Form Styling */
+.auth-form {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.auth-form h2 {
+  font-size: 24px;
+  color: #a5998d; /* Latte */
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.auth-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #c9bcac; /* Ash */
+  border-radius: 5px;
+  box-sizing: border-box; /* Ensure padding is included in width */
+}
+
+/* Error and Success Styles */
+input.error {
+  border-color: red; /* Red border for error */
+}
+
+input.success {
+  border-color: green; /* Green border for valid input */
+}
+
+/* Show error message on focus */
+.auth-form input:focus.error {
+  border-color: red; /* Change border to red when focused and error exists */
+}
+
+/* Hover to show error message */
+.auth-form input[data-error]:hover {
+  position: relative; /* Allow positioning of error message */
+}
+
+.auth-form input[data-error]:hover::after {
+  content: attr(data-error); /* Use the data-error attribute */
+  color: red;
+  font-size: 12px;
+  display: block;
+  margin-top: 5px;
+  pointer-events: none; /* Prevent interaction with the message */
+}
+
+/* Button Styling */
+.auth-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #cdb199; /* Terracotta */
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.auth-form button:hover {
+  background-color: #a5998d; /* Latte */
+}
+
+/* Social Login Buttons */
+.social-login {
+  display: flex;
+  justify-content: space-between; /* Space out the buttons */
+  margin-bottom: 20px; /* Space below the social buttons */
+}
+
+.social-button {
+  flex: 1; /* Allow buttons to share the available space equally */
+  padding: 10px;
+  background-color: #cdb199; /* Terracotta */
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 10px; /* Add space between the buttons */
+}
+
+.social-button:last-child {
+  margin-right: 0; /* Remove margin for the last button */
+}
+
+.social-button:hover {
+  background-color: #a5998d; /* Latte */
+}
+
+/* Link Styling */
+.link {
+  color: #cdb199; /* Terracotta */
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* Align Terms and Checkbox */
+.terms {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.terms span {
+  margin-left: 5px; /* Adjusted for better alignment */
+  font-size: 14px;
+  white-space: nowrap; /* Prevent line breaks */
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .auth-image-section img {
+    max-width: 100%; /* Ensures responsiveness on smaller screens */
+  }
+}
+
+/* Hide Terms in Login */
+.login .terms {
+  display: none; /* Hide terms and conditions section only in login page */
+}

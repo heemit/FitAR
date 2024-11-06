@@ -1,0 +1,113 @@
+/* General Page Styling */
+.profile-page {
+  background-color: #fdfdfb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+.profile-container {
+  width: 50%;
+  background-color: #dfd5cb;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Title Styling */
+.profile-title {
+  text-align: center;
+  color: #a5998d;
+  font-size: 36px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+/* Section Titles */
+.section-title {
+  font-size: 24px;
+  color: #c9bcac;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/* Profile and Address Details */
+.profile-details, .address-details {
+  background-color: #eeebe6;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.profile-details label {
+  display: block; /* Make labels block elements for line breaks */
+  margin-bottom: 10px;
+}
+
+.profile-details input {
+  width: calc(100% - 20px); /* Adjust width for input fields */
+  padding: 8px;
+  margin-top: 5px; /* Space between label and input */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.profile-details span {
+  display: block; /* Ensure spans are block elements for line breaks */
+  margin-top: 5px;
+}
+
+/* Logout Button */
+.logout-section {
+  text-align: center;
+}
+
+.logout-btn {
+  background-color: #cdb199;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.logout-btn:hover {
+  background-color: #a5998d;
+}
+
+/* Edit Button */
+.edit-btn {
+  background-color: #a5998d;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.edit-btn:hover {
+  background-color: #8a7b69;
+}
+
+/* Save Button */
+.save-btn {
+  background-color: #8fc1e3;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.save-btn:hover {
+  background-color: #6fa8d2;
+}

@@ -1,0 +1,335 @@
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f8f8f8;
+}
+
+/* Styling for logo */
+.logo img{
+  width: 156.25px;
+  height: 62.5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 5px;
+  background-color: #a5998d;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.logo:hover img{
+  transform: scale(1.05);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* New class for product titles */
+.product-title {
+  font-size: 36px; /* Adjust the size as needed */
+  font-weight: bold; /* Make the text bold */
+  color: #333; /* Set a neutral color */
+  text-align: center; /* Center align the text */
+  margin: 10px 0; /* Add some margin */
+}
+
+.account-dropdown {
+  position: absolute;
+  background-color: #f8f8f8;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ccc;
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+}
+
+.account-dropdown li {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.account-dropdown li:hover {
+  background-color: #dfd5cb;
+}
+
+.search-bar {
+  display: flex;
+  width: 50%;
+  max-width: 500px;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.search-bar button {
+  background-color: #ccc;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.icons {
+  display: flex;
+  gap: 15px;
+  font-size: 24px;
+}
+
+/* Wishlist dropdown styling */
+.wishlist-dropdown {
+  position: absolute;
+  background-color: #f8f8f8;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  list-style: none;
+  margin: 0;
+  z-index: 2; /* Increased z-index */
+  width: 110px; /* Adjust width for dropdown */
+  left: 0; /* Align left edge of dropdown with wishlist icon */
+  top: 100%; /* Position below the icon */
+  display: none; /* Ensure it's hidden by default */
+}
+
+/* Show dropdown when hovering over the wishlist icon */
+.wishlist-icon:hover .wishlist-dropdown {
+  display: block; /* Show the dropdown on hover */
+}
+
+/* List item styling */
+.wishlist-dropdown li {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.wishlist-dropdown li:hover {
+  background-color: #dfd5cb; /* Change on hover */
+}
+
+.wishlist-icon,
+.cart-icon,
+.account-icon {
+  cursor: pointer;
+}
+
+.navbar {
+  background-color: #c9bcac;
+  padding: 10px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+}
+
+.navbar li {
+  position: relative;
+  cursor: pointer;
+}
+
+/* Dropdown */
+.dropdown-parent:hover .dropdown {
+  display: block;
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #f8f8f8;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  list-style: none;
+  z-index: 2; 
+}
+
+.dropdown li {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.dropdown li:hover {
+  background-color: #dfd5cb;
+}
+
+/* Hide dropdown by default */
+.dropdown-parent .dropdown {
+  display: none;
+}
+
+/* Main Content Layout */
+.main-content {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding: 20px;
+}
+
+/* Styling for the product text (right section) */
+.styled-text .text-centered {
+  font-size: 54px;    /* Increase font size */
+  font-weight: bold;  /* Bold text */
+  color: black;       /* Set text color to black */
+  line-height: 1.2;   /* Line height for better spacing */
+  display: flex;
+  flex-direction: column;      /* Ensure text remains vertical */
+}
+
+.left-aligned div{
+  text-align: left;  /* Align text content to the left */
+  justify-content: flex-start; /* Align content to the left */
+}
+
+.right-aligned div{
+  text-align: right;  /* Align text content to the right */
+  justify-content: flex-end; /* Align content to the right */
+}
+
+/* Make the text left-aligned inside the text-centered block */
+.text-centered div {
+  margin-bottom: 5px; /* Adjust margin for better spacing between lines */
+}
+
+.product-layout {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.product-image {
+  width: 50%;
+}
+
+.product-image img {
+  width: 100%;
+  height: auto;
+}
+
+.product-text {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.product-textr {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+/* Background Colors */
+.background-one {
+  background-color: #dfd5cb;
+}
+
+.background-two {
+  background-color: #c9bcac;
+}
+
+/* Centering Text */
+.text-centered {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  gap: 20px;
+  padding: 20px;
+}
+
+.product-item {
+  border: 1px solid #ccc;
+  padding: 20px;
+  position: relative;
+  background-color: #f8f8f8;
+  text-align: left;
+}
+
+.product-info {
+  margin-bottom: 20px;
+}
+
+.product-icons {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  display: flex;
+  gap: 10px;
+  font-size: 24px;
+}
+
+.wishlist-icon,
+.camera-icon {
+  cursor: pointer;
+}
+
+/* Footer Section Styling */
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #f8f8f8; /* Same background as header */
+  border-top: 1px solid #ccc; /* Optional: Add a border for separation */
+}
+
+.footer-content {
+  color: #333; /* Set a neutral color for the footer text */
+  margin-bottom: 10px; /* Space between content and links */
+}
+
+.footer-links {
+  font-size: 14px; /* Smaller font size for footer links */
+  color: #666; /* A lighter color for links */
+}
+
+.footer-links a {
+  color: #666; /* Consistent link color */
+  text-decoration: none; /* Remove underline */
+  margin: 0 10px; /* Space between links */
+}
+
+.footer-links a:hover {
+  text-decoration: underline; /* Underline on hover for better visibility */
+}
+
+a-scene {
+  width: 100%;
+  height: 100vh; /* Full viewport height */
+  background: transparent; /* Make background transparent */
+  position: fixed; /* Fixed positioning */
+  top: 0;
+  left: 0;
+  z-index: 10; /* Make sure it stays above other content */
+}
+
+.add-to-cart-button {
+  background-color: #dfd5cb;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.add-to-cart-button:hover {
+  background-color: #dfd5cb;
+}
