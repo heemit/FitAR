@@ -143,49 +143,67 @@ Open your browser and navigate to http://localhost:3000.
 ### **Images**
 
 **Home Page**
+
 ![image](https://github.com/user-attachments/assets/b32298d1-10af-4c0c-a8a7-670d51d18323)
+
 ![image](https://github.com/user-attachments/assets/1a228d18-9d06-40cb-9c29-36dfeb92f5cc)
+
 ![image](https://github.com/user-attachments/assets/0b72a3a9-3490-4f3f-a6b1-d4c9384a2288)
 
 **Register Page**
+
 ![image](https://github.com/user-attachments/assets/679b2606-e772-477d-bceb-8b0a1d274516)
 
 **Login Page**
+
 ![image](https://github.com/user-attachments/assets/64d5d679-b5bb-49e4-bc16-3d6d4e7423d6) 
 
 **Profile Page**
+
 ![image](https://github.com/user-attachments/assets/78e41e45-296a-4a12-9975-a9dd4d8fe7a8)
 
 **Flexibility & Recovery Page**
+
 ![image](https://github.com/user-attachments/assets/09c81921-7c8f-41d5-8b5c-d8ec0edfee44)
 
 **Bodyweight Page**
+
 ![image](https://github.com/user-attachments/assets/7ea453f0-61f8-4515-ba50-ebc315c11250)
 
 **Cardio Page**
+
 ![image](https://github.com/user-attachments/assets/519e59a7-298f-4063-b16b-f6a1039370de)
 
 **Strength Page**
+
 ![image](https://github.com/user-attachments/assets/27dda000-9315-4dec-bca4-5aa42f437117)
 
 **Functional Training Page**
+
 ![image](https://github.com/user-attachments/assets/3b9f7670-5aa3-4d83-a879-f655534c4919)
 
 **Wearable Technology Page**
+
 ![image](https://github.com/user-attachments/assets/ad0bc781-58ca-4d63-916e-69d3a7f419e7)
 
 **AR View**
+
 ![image](https://github.com/user-attachments/assets/50c8308d-84e1-4b06-8461-23a6e881324f)
+
 ![image](https://github.com/user-attachments/assets/8bc341ad-9967-4f6e-81e8-b58a244ba285)
 
 **Cart Page**
+
 ![image](https://github.com/user-attachments/assets/480c2485-5af6-4d87-9ff8-6e5c4dcdd4bc)
+
 ![image](https://github.com/user-attachments/assets/5a17988a-58ef-42ce-9e5a-ae9e9ba893ca)
  
 **Order Confirmation Page**
+
 ![image](https://github.com/user-attachments/assets/ca1f1c36-0f33-4179-a85b-de408af631fa)
 
 **Orders Page**
+
 ![image](https://github.com/user-attachments/assets/8e5d301c-ed1b-4c64-9ce0-bf087ee4c16f)
 
 ### **Author**
